@@ -413,7 +413,7 @@ a {
 .burger__svg {
   fill: #262d36; }
 
-.main__pop-up {
+.main__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
