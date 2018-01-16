@@ -1,17 +1,75 @@
-<header>
-    <img src="img/angular.svg">
-    <h1>
-        {{ title }}
-    </h1>
-</header>
+<!--<header>-->
+    <!--<img src="img/angular.svg">-->
+    <!--<h1>-->
+        <!--{{ title }}-->
+    <!--</h1>-->
+<!--</header>-->
 
 <main class="main">
     <div class="main__wrapper">
-        <button class="main__toggle toggle">
-            <svg class="toggle__svg svg" width="55px" height="55px">
-                <use xlink:href="img/icon-menu-burger.svg#icon-menu-burger">
-                </use>
-            </svg>
-        </button>
+        <!--burger-->
+        <div class="main__burger burger">
+            <button class="burger__toggle toggle">
+                <span class="burger__mes">3</span>
+                <svg class="burger__svg svg" width="25px" height="25px">
+                    <use xlink:href="img/icon-menu-burger.svg#icon-menu-burger">
+                    </use>
+                </svg>
+            </button>
+        </div>
+        <!--pop-up-->
+        <div class="main__pop-up pop-up car">
+            <div class="pop-up__title car__main">
+                <p class="pop-up__text">
+                    Газель - H 511 EC 93
+                </p>
+                <p class="pop-up__sub">
+                    движение, 35 км/ч
+                </p>
+            </div>
+            <ul class="pop-up__info info">
+                <li class="info__item">
+                    <p class="info__text">
+                        Длительность
+                    </p>
+                    <span class="info__desc">
+                        40 мин.
+                    </span>
+                </li>
+                <li class="info__item">
+                    <p class="info__text">
+                        Активность
+                    </p>
+                    <span class="info__desc">
+                        09:29:54
+                    </span>
+                </li>
+                <li class="info__item">
+                    <p class="info__text">
+                        Топливо
+                    </p>
+                    <span class="info__desc">
+                        63,3 л.
+                    </span>
+                </li>
+                <li class="info__item">
+                    <p class="info__text">
+                        Пройденное расстояние
+                    </p>
+                    <span class="info__desc">
+                        135,4 км.
+                    </span>
+                </li>
+                <li class="info__item">
+                    <p class="info__text info__text-adr">
+                        М-4 Дон, 1332-й километр, Краснодарский край, Россия, 350000
+                    </p>
+                </li>
+                <svg class="info__svg svg" width="25px" height="60px">
+                    <use xlink:href="img/triangle.svg#triangle">
+                    </use>
+                </svg>
+            </ul>
+        </div>
     </div>
 </main>
