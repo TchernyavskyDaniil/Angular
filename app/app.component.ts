@@ -1,19 +1,8 @@
+// Храним компоненты
+
 import { Component } from "@angular/core";
 
-const todos = [
-    {
-        title: 'LOL',
-        completed: true
-    },
-    {
-        title: 'KEK',
-        completed: false
-    },
-    {
-        title: 'LOLS',
-        completed: false
-    }
-];
+import { AppComponentBurger } from "./app.component.burger";
 
 @Component({
     moduleId: module.id,
@@ -22,7 +11,5 @@ const todos = [
     styleUrls: ['style.css']
 })
 export class AppComponent {
-    title = 'Angular 2Do';
-    todos = todos;
 }
 
