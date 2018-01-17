@@ -16,6 +16,13 @@
   position: relative;
 }
 
+.burger__toggle:hover {
+  background-color: #2196f3;
+  .burger__svg {
+    fill: white;
+  }
+}
+
 .burger__mes {
   position: absolute;
   width: 27px;

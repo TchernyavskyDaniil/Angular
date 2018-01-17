@@ -72,6 +72,28 @@
   top: 10px;
 }
 
+.info__button {
+  position: relative;
+}
+
+.info__button--close:before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../img/folder-close.svg');
+  left: -30px;
+}
+
+.info__button--active:before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../img/folder-active.svg');
+  left: -30px;
+}
+
 .info__item {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -87,6 +109,7 @@
   padding-left: 0;
   display: flex;
   flex-direction: column;
+  min-width: 350px;
 }
 
 .info__target {
@@ -96,4 +119,45 @@
 .target__item {
   width: 190px;
   min-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  //border-top: 2px solid #eceff1;
 }
+
+.target__button {
+  position: relative;
+}
+
+.target__button--active:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 53px;
+  height: 55px;
+  background-image: url('../../img/arrow.svg');
+  transform: rotate(-90deg);
+  left: -45px;
+  top: -1px;
+}
+
+.target__button--close:before {
+  content: "P";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: -15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2196f3;
+}
+//
+//.target__button--active::after {
+//  content: '';
+//  display: block;
+//  position: absolute;
+//  width: 16px;
+//  height: 5px;
+//  background: orangered;
+//  border-left-color: orangered;
+//}
