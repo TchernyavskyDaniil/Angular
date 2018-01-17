@@ -1,5 +1,7 @@
 import { Component } from "@angular/core";
 
+import { AppComponentUserMenu } from "./app.component.user-menu";
+
 @Component({
     moduleId: module.id,
     selector: 'burger',

@@ -1,4 +1,3 @@
-// Храним модули
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -10,23 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var platform_browser_1 = require("@angular/platform-browser");
-var app_component_1 = require("./app.component");
-var app_component_burger_1 = require("./app.component.burger");
-var app_component_map_1 = require("./app.component.map");
-var app_component_user_menu_1 = require("./app.component.user-menu");
-var AppModule = (function () {
-    function AppModule() {
+var AppComponentUserMenu = (function () {
+    function AppComponentUserMenu() {
     }
-    AppModule = __decorate([
-        core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, app_component_burger_1.AppComponentBurger, app_component_map_1.AppComponentMap, app_component_user_menu_1.AppComponentUserMenu],
-            bootstrap: [app_component_1.AppComponent]
+    AppComponentUserMenu = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: 'user-menu',
+            templateUrl: 'app.component.user-menu.html',
+            styleUrls: ['style.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], AppModule);
-    return AppModule;
+    ], AppComponentUserMenu);
+    return AppComponentUserMenu;
 }());
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+exports.AppComponentUserMenu = AppComponentUserMenu;
+//# sourceMappingURL=app.component.user-menu.js.map
