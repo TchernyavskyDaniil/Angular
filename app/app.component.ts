@@ -25,3 +25,4 @@ export class AppComponent {
     title = 'Angular 2Do';
     todos = todos;
 }
+
