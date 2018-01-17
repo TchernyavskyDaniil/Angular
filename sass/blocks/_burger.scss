@@ -1,11 +1,18 @@
+.main__burger {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  left: 120px;
+}
+
 .burger__toggle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   background-color: #fff;
   border-color: transparent;
-  margin-left: 100px;
-  margin-top: 50px;
+  //margin-left: 100px;
+  //margin-top: 50px;
   position: relative;
 }
 

@@ -1,0 +1,12 @@
+.container__tree {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__button,
+.target__button,
+.target__button-sub {
+  border: none;
+  background-color: transparent;
+}
