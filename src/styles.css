@@ -703,6 +703,15 @@ a {
   height: 20px;
   background-image: url("assets/img/trailer.svg"); }
 
+.menu__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
 .menu__list {
   padding: 0; }
 
@@ -749,8 +758,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center; }
 
-.menu__item:nth-last-child(2),
-.menu__item:nth-last-child(3) {
+.menu__item:not(:nth-child(1)):not(:last-child) {
   border-bottom: 1px solid #eceff1; }
 
 .menu__num {
@@ -783,3 +791,14 @@ a {
 .burger__menu--close {
   display: none; }
 
+.menu__option {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 16px;
+  margin-left: 60px;
+  padding-bottom: 16px; }
+
+.set {
+  width: 100%;
+  text-align: left;
+}

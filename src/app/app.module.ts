@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {AppMapComponent} from './component.map/app.component.map';
 import {AppBurgerComponent} from './component.burger/app.component.burger';
 import {AppUserMenuComponent} from './component.burger/component.user-menu/app.component.user-menu';
+import {AppItemComponent} from './component.burger/component.user-menu/component.item/app.component.item';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {AppUserMenuComponent} from './component.burger/component.user-menu/app.c
     AppComponent,
     AppBurgerComponent,
     AppMapComponent,
-    AppUserMenuComponent
+    AppUserMenuComponent,
+    AppItemComponent
   ],
   imports: [
     BrowserModule
