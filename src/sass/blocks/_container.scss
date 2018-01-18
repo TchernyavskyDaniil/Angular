@@ -67,7 +67,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url('../../assets/img/loupe.svg');
+  background-image: url('/assets/img/loupe.svg');
   right: 25px;
   top: 10px;
 }
@@ -81,7 +81,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url('../../assets/img/folder-close.svg');
+  background-image: url('/assets/img/folder-close.svg');
   left: -30px;
 }
 
@@ -90,7 +90,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url('../../assets/img/folder-active.svg');
+  background-image: url('/assets/img/folder-active.svg');
   left: -30px;
 }
 
@@ -134,7 +134,7 @@
   position: absolute;
   width: 53px;
   height: 55px;
-  background-image: url('../../assets/img/arrow.svg');
+  background-image: url('/assets/img/arrow.svg');
   transform: rotate(-90deg);
   left: -45px;
   top: -1px;
