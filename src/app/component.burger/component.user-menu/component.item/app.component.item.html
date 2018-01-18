@@ -7,44 +7,72 @@
           программного обеспечения
         </span>
     </li>
-    <li class="menu__item">
+    <div class="menu__wrapper">
+      <div class="menu__settings">
+      <li class="menu__item">
         <button class="menu__set">
-            Общие
+          Общие
         </button>
-    </li>
-    <li class="menu__item">
+      </li>
+      <li class="menu__item">
         <button class="menu__set">
-            Профиль
+          Профиль
         </button>
-    </li>
-    <li class="menu__item">
+      </li>
+      <li class="menu__item">
         <button class="menu__set set">
-            Язык интерфейса
+          Язык интерфейса
         </button>
-    </li>
-    <li class="menu__item">
+      </li>
+      <li class="menu__item">
         <button class="menu__set ex">
-            Карты
+          Карты
         </button>
-    </li>
-    <li class="menu__item">
+      </li>
+      <li class="menu__item">
         <button class="menu__set">
-            Мониторинг
+          Мониторинг
         </button>
-    </li>
-    <li class="menu__item">
+      </li>
+      <li class="menu__item">
         <button class="menu__set">
-            О программе
+          О программе
         </button>
-    </li>
-    <li class="menu__item">
+      </li>
+      <li class="menu__item">
         <a class="menu__set">
-            SVG
+          SVG
         </a>
-    </li>
-    <li class="menu__item">
+      </li>
+      <li class="menu__item">
         <button class="menu__exit save">
-            Сохранить
+          Сохранить
         </button>
-    </li>
+      </li>
+    </div>
+      <div class="menu__components components">
+        <ul class="components__list">
+          <li class="components__item">
+            <input class="components__input input" type="text" name="comp-text" id="comp-text" placeholder="Введите Ваш ключ">
+          </li>
+          <li class="components__item">
+            <label class="components__label" for="on-off">
+              <input class="components__input" type="checkbox" name="in-key" id="on-off" checked>
+              <span class="components__text">
+                Темная тема
+              </span>
+            </label>
+          </li>
+          <li class="components__item">
+            <p class="components__dess menu__sub">
+              Введите регистрационный ключ выданный
+              вам вендором программного обеспечения.
+            </p>
+            <button class="components__btn menu__exit save">
+              Сохранить
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
 </ul>

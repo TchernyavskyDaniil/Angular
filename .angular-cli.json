@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "app-angular"
+    "name": "app-project"
   },
   "apps": [
     {
@@ -19,7 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css",
+        "sass/styles.scss",
         "assets/js/map.js"
       ],
       "scripts": ["assets/js/map.js"],
@@ -55,7 +55,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }
