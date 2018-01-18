@@ -18,10 +18,10 @@ var AppComponentUserMenu = (function () {
             selector: 'user-menu',
             templateUrl: 'app.component.user-menu.html',
             styleUrls: ['../../style.css']
-        }), 
+        }),
         __metadata('design:paramtypes', [])
     ], AppComponentUserMenu);
     return AppComponentUserMenu;
 }());
 exports.AppComponentUserMenu = AppComponentUserMenu;
-//# sourceMappingURL=app.component.user-menu.js.map
+//# sourceMappingURL=app.user-menu.js.map

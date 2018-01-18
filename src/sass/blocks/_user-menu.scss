@@ -1,10 +1,18 @@
 .menu__form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .menu__list {
   padding: 0;
+  margin-top: 0;
+}
+
+.menu__name {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eceff1;
 }
 
 .menu__title {
@@ -20,16 +28,11 @@
   color: #607d8b;
 }
 
-.menu__item:nth-child(1) {
-  margin-bottom: 40px;
-}
+//.menu__item:nth-child(1) {
+//  margin-bottom: 40px;
+//}
 
-.menu__item {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.menu__item:not(:nth-child(1)):not(:last-child):hover {
+.menu__item:hover {
   background-color: #2196f3;
   color: #fff;
   cursor: pointer;
@@ -40,20 +43,23 @@
   background-color: transparent;
 }
 
-.menu__item:not(:nth-child(1)) {
+.menu__item {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.menu__item:last-child {
-  margin-top: 20px;
-  justify-content: center;
-}
+//.menu__item:last-child {
+//  margin-top: 20px;
+//  justify-content: center;
+//}
 
-.menu__item:not(:nth-child(1)):not(:last-child) {
-  border-bottom: 1px solid #eceff1; }
+.menu__item {
+  border-bottom: 1px solid #eceff1;
+}
 
 .menu__num {
   border-radius: 40%;

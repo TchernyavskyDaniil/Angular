@@ -1,14 +1,10 @@
 <div class="burger__menu main__container menu burger__menu--close">
     <form class="menu__form" action="/echo" method="post">
-        <ul class="menu__list">
-            <li class="menu__item">
-                <p class="menu__title">
-                    Газов Рустам
-                </p>
-                <span class="menu__sub">
-                                менеджер
-                            </span>
-            </li>
+      <app-current-user>
+        Газов  Рустам
+      </app-current-user>
+      <ul class="menu__list">
+            <app-button></app-button>
             <li class="menu__item">
                 <button class="menu__set">
                     Уведомления
@@ -53,12 +49,8 @@
                     </use>
                 </svg>
             </li>
-            <li class="menu__item">
-                <button class="menu__exit">
-                    Выйти из системы
-                </button>
-            </li>
         </ul>
+        <app-btn-exit></app-btn-exit>
         <app-item></app-item>
     </form>
 </div>

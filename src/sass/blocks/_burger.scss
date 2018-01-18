@@ -42,3 +42,12 @@
 .burger__svg--close {
   display: none;
 }
+
+.burger__svg-cross {
+  padding-top: 2px;
+  fill: #262d36;
+
+  &:hover {
+    fill: black;
+  }
+}
