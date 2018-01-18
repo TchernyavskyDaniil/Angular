@@ -1,0 +1,178 @@
+<app-map></app-map>
+<app-burger></app-burger>
+<div class="main__container pop-up car">
+  <div class="pop-up__title container-title">
+    <p class="pop-up__text">
+      Газель - H 511 EC 93
+    </p>
+    <p class="pop-up__sub">
+      движение, 35 км/ч
+    </p>
+  </div>
+  <ul class="pop-up__info info">
+    <li class="info__item">
+      <p class="info__text">
+        Длительность
+      </p>
+      <span class="info__desc">
+                        40 мин.
+                    </span>
+    </li>
+    <li class="info__item">
+      <p class="info__text">
+        Активность
+      </p>
+      <span class="info__desc">
+                        09:29:54
+                    </span>
+    </li>
+    <li class="info__item">
+      <p class="info__text">
+        Топливо
+      </p>
+      <span class="info__desc">
+                        63,3 л.
+                    </span>
+    </li>
+    <li class="info__item">
+      <p class="info__text">
+        Пройденное расстояние
+      </p>
+      <span class="info__desc">
+                        135,4 км.
+                    </span>
+    </li>
+    <li class="info__item">
+      <p class="info__text info__text-adr">
+        М-4 Дон, 1332-й километр, Краснодарский край, Россия, 350000
+      </p>
+    </li>
+    <svg class="info__svg svg" width="25px" height="60px">
+      <use xlink:href="../assets/triangle.svg#triangle">
+      </use>
+    </svg>
+  </ul>
+</div>
+<div class="main__container container">
+  <form class="container__form" action="/echo" method="post">
+    <div class="container__head">
+      <div class="container__text">
+                        <span class="container__title">
+                            Объекты
+                        </span>
+        <a class="container__link" href="#" alt="">
+          выбрать список
+        </a>
+      </div>
+      <button class="container__option btn">
+        <!--<svg class="burger__svg svg" width="25px" height="25px">-->
+        <!--<use xlink:href="../assets/elipsis.svg#elips">-->
+        <!--</use>-->
+        <!--</svg>-->
+        <span class="container__elips"></span>
+        <span class="container__elips"></span>
+        <span class="container__elips"></span>
+      </button>
+    </div>
+    <div class="container__search search">
+      <input class="search__input" type="text" name="search" id="m-search" placeholder="Поиск">
+    </div>
+    <ul class="container__tree info">
+      <li class="info__item info__item--close">
+        <button class="info__button info__button--close btn">
+          Баксан строй (68)
+        </button>
+      </li>
+      <li class="info__item info__item--close">
+        <button class="info__button info__button--close btn">
+          Макростройинвест (56)
+        </button>
+      </li>
+      <li class="info__item info__item--active">
+        <button class="info__button info__button--active">
+          Добровскийдон (3)
+        </button>
+        <ul class="info__type info">
+          <li class="info__item info__item--close type">
+            <button class="info__button info__button--close btn type">
+              Трактора (760)
+            </button>
+          </li>
+          <li class="info__item info__item--active type">
+            <button class="info__button info__button--active btn">
+              Легковые (115)
+            </button>
+            <ul class="info__target target">
+              <li class="target__item target__item--active">
+                <button class="target__button target__button--active btn">
+                  МТ3 - 23 - 2338 Т3 77
+                </button>
+              </li>
+              <li class="target__item target__item--active">
+                <button class="target__button target__button--active btn">
+                  ВТ3 - 150 - 2398 УО 43
+                </button>
+                <button class="target__button-sub btn">
+                  Прицеп: 2298 УО 43
+                </button>
+              </li>
+              <li class="target__item target__item--close">
+                <button class="target__button target__button--close">
+                  МТ3 - 6783 ВХ 77
+                </button>
+              </li>
+              <li class="target__item target__item--active">
+                <button class="target__button target__button--active btn">
+                  ХТБ - 23 - 2345 Т3 77
+                </button>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="info__item info__item--close">
+        <button class="info__button info__button--close">
+          Баксан строй (68)
+        </button>
+      </li>
+      <li class="info__item info__item--close">
+        <button class="info__button info__button--close">
+          Макростройинвест (56)
+        </button>
+      </li>
+      <li class="info__item info__item--close">
+        <button class="info__button info__button--close info__personal">
+          Горпромышленность (760)
+        </button>
+      </li>
+      <li class="info__item info__item--close">
+        <button class="info__button info__button--close info__personal">
+          Черный кв (115)
+        </button>
+      </li>
+      <li class="info__item info__item--active">
+        <button class="info__button info__button--active">
+          Добровскийдон(3)
+        </button>
+        <ul class="info__target target">
+          <li class="target__item target__item--active">
+            <button class="target__button target__button--active btn">
+              ГВЫ - 23 - 2754 Ф3 24
+            </button>
+          </li>
+          <li class="target__item target__item--active">
+            <button class="target__button target__button--active btn">
+              МТЗ - 21 - 6857 ТЗ 3452
+            </button>
+          </li>
+          <li class="target__item target__item--close">
+            <button class="target__button target__button--close">
+              МТЗ - 22 - 3457 ТЗ 567
+            </button>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </form>
+</div>
+<!--</div>-->
