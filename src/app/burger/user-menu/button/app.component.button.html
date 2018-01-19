@@ -1,6 +1,6 @@
 <ul class="menu__list">
   <li class="menu__item" *ngFor="let btn of buttons">
-    <button class="menu__set" (click)="openClick($event)">
+    <button class="menu__set" (click)="btn.name == 'Настройки' && openClick($event)">
       {{btn.name}}
     </button>
   </li>
