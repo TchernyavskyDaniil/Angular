@@ -1,4 +1,4 @@
-<ul class="menu__list menu__option main__container burger__menu--close">
+<div class="menu__option main__container burger__menu--close">
     <div class="menu__name">
       <app-header>
         Настройки
@@ -8,55 +8,30 @@
       </app-sub-header>
     </div>
     <div class="menu__wrapper">
-      <div class="menu__settings">
-      <li class="menu__item">
-        <button class="menu__set">
-          Общие
-        </button>
-      </li>
-      <li class="menu__item">
-        <button class="menu__set">
-          Профиль
-        </button>
-      </li>
-      <li class="menu__item">
-        <button class="menu__set set">
-          Язык интерфейса
-        </button>
-      </li>
-      <li class="menu__item">
-        <button class="menu__set ex">
-          Карты
-        </button>
-      </li>
-      <li class="menu__item">
-        <button class="menu__set">
-          Мониторинг
-        </button>
-      </li>
-      <li class="menu__item">
-        <button class="menu__set">
-          О программе
-        </button>
-      </li>
-      <li class="menu__item">
-        <a class="menu__set">
-          SVG
-        </a>
-      </li>
-    </div>
+      <div class="menu__set">
+      <app-set-button></app-set-button>
+        <div class="menu__logo-wrapper">
+          <a class="menu__logo">
+            WALIOT
+          </a>
+        </div>
+      </div>
       <div class="menu__components components">
         <ul class="components__list">
           <li class="components__item">
             <input class="components__input input" type="text" name="comp-text" id="comp-text" placeholder="Введите Ваш ключ">
           </li>
           <li class="components__item">
-            <label class="components__label" for="on-off">
-              <input class="components__input" type="checkbox" name="in-key" id="on-off" checked>
+            <div class="components__switch">
               <span class="components__text">
                 Темная тема
               </span>
-            </label>
+              <label class="components__label switch" for="on-off">
+                <input class="components__checkbox checkbox" type="checkbox" name="in-key" id="on-off" checked>
+                <span class="components__click slider round">
+                </span>
+              </label>
+            </div>
           </li>
           <li class="components__item">
             <p class="components__dess menu__sub">
@@ -70,4 +45,4 @@
         </ul>
       </div>
     </div>
-</ul>
+</div>

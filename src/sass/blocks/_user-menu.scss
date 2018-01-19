@@ -1,6 +1,6 @@
 .menu__form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .menu__list {
@@ -46,20 +46,18 @@
 .menu__item {
   display: flex;
   justify-content: space-between;
+  min-width: 300px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
+  border-bottom: 1px solid #eceff1;
 }
 
 //.menu__item:last-child {
 //  margin-top: 20px;
 //  justify-content: center;
 //}
-
-.menu__item {
-  border-bottom: 1px solid #eceff1;
-}
 
 .menu__num {
   border-radius: 40%;

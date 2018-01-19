@@ -1,8 +1,8 @@
 .main__burger {
   position: absolute;
   z-index: 1;
-  top: 100px;
-  left: 120px;
+  top: 40px;
+  left: 60px;
 }
 
 .burger__toggle {
@@ -10,14 +10,17 @@
   height: 60px;
   border-radius: 50%;
   background-color: #fff;
-  border-color: transparent;
+  border-color: black;
   //margin-left: 100px;
   //margin-top: 50px;
-  position: relative;
+  position: absolute;
+  top: -24px;
+  left: -26px;
 }
 
 .burger__toggle:hover {
   background-color: #2196f3;
+  border-color: transparent;
   .burger__svg {
     fill: white;
   }

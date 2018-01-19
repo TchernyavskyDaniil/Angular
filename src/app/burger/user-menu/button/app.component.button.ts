@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 
 export class AppButtonComponent {
   public buttons = BTN;
+  openClick(event: any) {
+    if (BTN[2].name) {
+
+    }
+    event.preventDefault();
+    const buttonOpen = document.querySelector('.menu__option');
+    buttonOpen.classList.toggle('burger__menu--close');
+  }
 }
 
 const BTN = [
