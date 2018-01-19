@@ -1,7 +1,12 @@
 <ul class="menu__list menu__option main__container burger__menu--close">
-    <app-current-user>
-      Настройки
-    </app-current-user>
+    <div class="menu__name">
+      <app-header>
+        Настройки
+      </app-header>
+      <app-sub-header>
+        программного обеспечения
+      </app-sub-header>
+    </div>
     <div class="menu__wrapper">
       <div class="menu__settings">
       <li class="menu__item">
@@ -39,11 +44,6 @@
           SVG
         </a>
       </li>
-      <li class="menu__item">
-        <button class="menu__exit save">
-          Сохранить
-        </button>
-      </li>
     </div>
       <div class="menu__components components">
         <ul class="components__list">
@@ -63,9 +63,9 @@
               Введите регистрационный ключ выданный
               вам вендором программного обеспечения.
             </p>
-            <button class="components__btn menu__exit save">
+            <app-btn-exit>
               Сохранить
-            </button>
+            </app-btn-exit>
           </li>
         </ul>
       </div>

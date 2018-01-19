@@ -1,8 +1,13 @@
 <div class="burger__menu main__container menu burger__menu--close">
     <form class="menu__form" action="/echo" method="post">
-      <app-current-user>
-        Газов  Рустам
-      </app-current-user>
+      <div class="menu__name">
+        <app-header>
+          Газов Рустам
+        </app-header>
+        <app-sub-header>
+          менеджер
+        </app-sub-header>
+      </div>
       <ul class="menu__list">
             <app-button></app-button>
             <li class="menu__item">
@@ -50,7 +55,9 @@
                 </svg>
             </li>
         </ul>
-        <app-btn-exit></app-btn-exit>
+        <app-btn-exit>
+          Выйти из системы
+        </app-btn-exit>
         <app-item></app-item>
     </form>
 </div>

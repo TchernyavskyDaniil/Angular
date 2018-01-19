@@ -6,10 +6,6 @@ import { Component } from '@angular/core';
 })
 
 export class AppButtonComponent {
-  btn = {
-    id: 1,
-    name: 'lslsl'
-  };
   public buttons = BTN;
 }
 

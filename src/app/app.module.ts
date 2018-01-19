@@ -11,6 +11,7 @@ import {AppButtonComponent} from "./burger/user-menu/button/app.component.button
 import {AppCurrentUserComponent} from "./burger/user-menu/current-user/app.component.current-user";
 import {AppButtonExitComponent} from "./burger/user-menu/buttonExit/app.component.buttonExit";
 import {AppHeaderComponent} from "./burger/user-menu/current-user/header/app.component.header";
+import {AppSubHeaderComponent} from "./burger/user-menu/current-user/sub-header/app.component.sub-header";
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {AppHeaderComponent} from "./burger/user-menu/current-user/header/app.com
     AppButtonComponent,
     AppCurrentUserComponent,
     AppButtonExitComponent,
-    AppHeaderComponent
+    AppHeaderComponent,
+    AppSubHeaderComponent
   ],
   imports: [
     BrowserModule

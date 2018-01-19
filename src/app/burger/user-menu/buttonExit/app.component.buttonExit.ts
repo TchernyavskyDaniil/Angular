@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
 })
 
 export class AppButtonExitComponent {
-
+  public buttonsExit = BTN_EXIT;
 }
+
+const BTN_EXIT = [
+  { 'id': 1, 'name': 'Выйти из системы' },
+  { 'id': 2, 'name': 'Сохранить' }
+];

@@ -10,6 +10,8 @@ export class AppHeaderComponent {
   public header = NAME;
 }
 
+// Не использовал
+
 const NAME = [
   { 'id': 1, 'name': 'Газов Рустам' },
   { 'id': 2, 'name': 'Настройки' }
