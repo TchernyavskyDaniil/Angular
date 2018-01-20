@@ -13,6 +13,7 @@ import {AppButtonExitComponent} from "./burger/user-menu/buttonExit/app.componen
 import {AppHeaderComponent} from "./burger/user-menu/current-user/header/app.component.header";
 import {AppSubHeaderComponent} from "./burger/user-menu/current-user/sub-header/app.component.sub-header";
 import {AppSetButtonComponent} from './item/set-button/app.component.set-button';
+import {AppAlertMesComponent} from "./burger/user-menu/button/alert-mes/app.component.alert-mes";
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {AppSetButtonComponent} from './item/set-button/app.component.set-button'
     AppButtonExitComponent,
     AppHeaderComponent,
     AppSubHeaderComponent,
-    AppSetButtonComponent
+    AppSetButtonComponent,
+    AppAlertMesComponent
   ],
   imports: [
     BrowserModule

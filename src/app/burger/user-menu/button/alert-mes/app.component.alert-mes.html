@@ -1,0 +1,14 @@
+<!--NOT USED-->
+
+<div class="menu__alert" *ngFor="let alert of alerts">
+  <button class="menu__tasks" *ngIf="alert.task !== false">
+    {{alert.task}}
+  </button>
+  <button class="menu__num">
+    3
+  </button>
+  <svg class="menu__svg svg" width="25px" height="25px">
+    <use xlink:href="../../../assets/img/tape.svg#tape">
+    </use>
+  </svg>
+</div>

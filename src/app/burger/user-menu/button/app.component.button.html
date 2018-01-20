@@ -3,5 +3,16 @@
     <button class="menu__set" (click)="btn.name == 'Настройки' && openClick($event)">
       {{btn.name}}
     </button>
+    <div class="menu__alert">
+      <button class="menu__tasks" *ngIf="btn.task !== false">
+        {{btn.task}}
+      </button>
+      <button class="menu__num" *ngIf="btn.alert !== false">
+        {{btn.alert}}
+      </button>
+      <svg class="menu__svg svg" width="25px" height="25px" *ngIf="btn.link !== false">
+        <use attr.xlink:href="{{btn.link}}"></use>
+      </svg>
+    </div>
   </li>
 </ul>
