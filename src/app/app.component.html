@@ -1,53 +1,59 @@
 <app-map></app-map>
 <app-burger></app-burger>
-<div class="main__container pop-up car">
-  <div class="pop-up__title container-title">
-    <p class="pop-up__text">
-      Газель - H 511 EC 93
-    </p>
-    <p class="pop-up__sub">
-      движение, 35 км/ч
-    </p>
+<div class="main__pop-up-wrapper">
+  <div class="main__container pop-up car">
+    <div class="pop-up__title container-title">
+      <p class="pop-up__text">
+        Газель - H 511 EC 93
+      </p>
+      <p class="pop-up__sub">
+        движение, 35 км/ч
+      </p>
+    </div>
+    <ul class="pop-up__info info">
+      <li class="info__item">
+        <p class="info__text">
+          Длительность
+        </p>
+        <span class="info__desc">
+          40 мин.
+        </span>
+      </li>
+      <li class="info__item">
+        <p class="info__text">
+          Активность
+        </p>
+        <span class="info__desc">
+          09:29:54
+        </span>
+      </li>
+      <li class="info__item">
+        <p class="info__text">
+          Топливо
+        </p>
+        <span class="info__desc">
+          63,3 л.
+        </span>
+      </li>
+      <li class="info__item">
+        <p class="info__text">
+          Пройденное расстояние
+        </p>
+        <span class="info__desc">
+          135,4 км.
+        </span>
+      </li>
+      <li class="info__item">
+        <p class="info__text info__text-adr">
+          М-4 Дон, 1332-й километр, Краснодарский край, Россия, 350000
+        </p>
+      </li>
+    </ul>
   </div>
-  <ul class="pop-up__info info">
-    <li class="info__item">
-      <p class="info__text">
-        Длительность
-      </p>
-      <span class="info__desc">
-        40 мин.
-      </span>
-    </li>
-    <li class="info__item">
-      <p class="info__text">
-        Активность
-      </p>
-      <span class="info__desc">
-        09:29:54
-      </span>
-    </li>
-    <li class="info__item">
-      <p class="info__text">
-        Топливо
-      </p>
-      <span class="info__desc">
-        63,3 л.
-      </span>
-    </li>
-    <li class="info__item">
-      <p class="info__text">
-        Пройденное расстояние
-      </p>
-      <span class="info__desc">
-        135,4 км.
-      </span>
-    </li>
-    <li class="info__item">
-      <p class="info__text info__text-adr">
-        М-4 Дон, 1332-й километр, Краснодарский край, Россия, 350000
-      </p>
-    </li>
-  </ul>
+  <svg class="main__placeholder svg" width="25px" height="25px">
+    <use xlink:href="../../../assets/img/placeholder.svg#placeholder">
+    </use>
+  </svg>
 </div>
 <div class="main__container container">
   <form class="container__form" action="/echo" method="post">
