@@ -1,7 +1,7 @@
 <app-map></app-map>
 <app-burger></app-burger>
 <div class="main__pop-up-wrapper">
-  <div class="main__container pop-up car">
+  <div class="main__container pop-up pop-up-close car">
     <div class="pop-up__title container-title">
       <p class="pop-up__text">
         Газель - H 511 EC 93
@@ -57,6 +57,7 @@
 </div>
 <div class="main__container container">
   <form class="container__form" action="/echo" method="post">
+    <app-tree></app-tree>
     <div class="container__head">
       <div class="container__text">
         <span class="container__title">
@@ -75,6 +76,7 @@
     <div class="container__search search">
       <input class="search__input" type="text" name="search" id="m-search" placeholder="Поиск">
     </div>
+    <app-tree></app-tree>
     <ul class="container__tree info">
       <li class="info__item info__item--close">
         <button class="info__button info__button--close btn">

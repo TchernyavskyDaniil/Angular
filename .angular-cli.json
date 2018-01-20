@@ -19,8 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "sass/styles.scss",
-        "assets/js/map.js"
+        "sass/styles.scss"
       ],
       "scripts": ["assets/js/map.js"],
       "environmentSource": "environments/environment.ts",
