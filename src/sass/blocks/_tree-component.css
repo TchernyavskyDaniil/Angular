@@ -1,6 +1,6 @@
 .tree-children.tree-children-no-padding { padding-left: 0 }
 .tree-children { padding-left: 20px; overflow: hidden }
-.node-drop-slot { display: block; height: 2px }
+.node-drop-slot { display: block; }
 .node-drop-slot.is-dragging-over { background: #ddffee; height: 20px; border: 2px dotted #888; }
 .toggle-children-wrapper-expanded .toggle-children {   background-image: url('/assets/img/folder-active.svg') }
 .toggle-children-wrapper-collapsed .toggle-children { transform: rotate(0); }
@@ -27,6 +27,11 @@
   top: 1px;
   padding-right: 3px;
 }
+
+:host-context(tree-node-expander) ::ng-deep .toggle-children-placeholder {
+  width: 400px;
+  height: 400px;
+}
 .node-content-wrapper {
   display: inline-block;
   padding: 2px 5px;
@@ -36,11 +41,11 @@
 .node-wrapper {
   display: flex;
   align-items: flex-start;
-  border-bottom: 2px solid #eceff1;
+  border-top: 2px solid #eceff1;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 30px !important;
-  padding-right: 30px;
+  padding-left: 20px !important;
+  padding-right: 20px;
 }
 
 .node-content-wrapper-active,

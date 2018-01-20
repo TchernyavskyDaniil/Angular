@@ -4,13 +4,13 @@
   //padding-top: 16px;
   margin-left: 60px;
   width: 100%;
-  min-height: 446px;
+  min-height: 380px;
 }
 
 .menu__wrapper {
   display: flex;
   flex-direction: row;
-  min-height: 330px;
+  min-height: 280px;
 }
 
 .menu__logo-wrapper {
@@ -33,7 +33,7 @@
 
 .components__list {
   display: flex;
-  min-height: 330px;
+  min-height: 280px;
   flex-direction: column;
   align-items: center;
   padding-left: 20px;
@@ -116,7 +116,7 @@ input:checked + .slider:before {
 .components__item:last-child {
   display: flex;
   flex-direction: column;
-  min-height: 230px;
+  min-height: 210px;
   justify-content: flex-end;
   text-align: center;
 }
