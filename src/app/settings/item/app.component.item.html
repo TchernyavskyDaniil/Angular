@@ -9,7 +9,7 @@
       </app-sub-header>
     </div>
     <button class="menu__option-toggle" (click)="toggleBtn($event)">
-      <svg class="menu__svg menu__svg-cross menu__svg--close svg" width="20px" height="20px">
+      <svg class="menu__svg menu__svg-cross menu__svg--close svg" width="25px" height="25px">
         <use xlink:href="../../../assets/img/close.svg#icon-menu-cross">
         </use>
       </svg>
@@ -27,7 +27,7 @@
     <div class="menu__components components visually-hidden">
       <ul class="components__list">
         <li class="components__item">
-          <input class="components__input input" type="text" name="comp-text" id="comp-text" placeholder="Введите Ваш ключ">
+          <input class="components__input input" type="text" name="comp-text" id="comp-text" [(ngModel)]="str" >
         </li>
         <li class="components__item">
           <div class="components__switch">
