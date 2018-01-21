@@ -15,6 +15,7 @@ import {AppSetButtonComponent} from './item/set-button/app.component.set-button'
 import {AppAlertMesComponent} from './burger/user-menu/button/alert-mes/app.component.alert-mes';
 import {AppTreeComponent} from './tree/app.component.tree';
 import {TreeModule} from 'angular-tree-component';
+import {AppPopUpComponent} from './pop-up/app.component.pop-up';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import {TreeModule} from 'angular-tree-component';
     AppSubHeaderComponent,
     AppSetButtonComponent,
     AppAlertMesComponent,
-    AppTreeComponent
+    AppTreeComponent,
+    AppPopUpComponent
   ],
   imports: [
     BrowserModule,
