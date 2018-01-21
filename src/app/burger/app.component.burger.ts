@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { AppUserMenuComponent } from './user-menu/app.component.user-menu';
+import { AppUserMenuComponent } from '../settings/user-menu/app.component.user-menu';
 
 @Component({
     selector: 'app-burger',

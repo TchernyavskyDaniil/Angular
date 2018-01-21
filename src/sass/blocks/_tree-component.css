@@ -71,7 +71,8 @@ tree-viewport {
 .angular-tree-component {
   width: 100%;
   position:relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */

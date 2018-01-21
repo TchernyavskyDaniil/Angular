@@ -1,10 +1,13 @@
 .menu__option {
-  margin-top: 0;
-  margin-bottom: 0;
-  //padding-top: 16px;
-  margin-left: 60px;
   width: 100%;
-  min-height: 380px;
+}
+
+.menu__option-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eceff1;
 }
 
 .menu__wrapper {
@@ -76,6 +79,7 @@
   -webkit-transition: .4s;
   transition: .4s;
   width: 60px;
+  min-height: 27px;
 }
 
 .slider:before {
@@ -84,7 +88,7 @@
   height: 18px;
   width: 19px;
   left: 9px;
-  bottom: 3px;
+  bottom: 5px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
