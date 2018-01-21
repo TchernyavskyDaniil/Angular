@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 
 export class AppSetButtonComponent {
   public setButtons = SET_BTN;
+  openSet(event: any) {
+    event.preventDefault();
+    const menuComponent = document.querySelector('.menu__components');
+    menuComponent.classList.toggle('visually-hidden');
+  }
 }
 
 const SET_BTN = [

@@ -46,6 +46,12 @@
   text-align: left;
 }
 
+.sub-set {
+  min-width: 380px;
+  border-right: 1px solid #eceff1;
+  min-height: 300px;
+}
+
 .menu__item {
   display: flex;
   justify-content: space-between;
