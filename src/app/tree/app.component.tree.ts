@@ -24,6 +24,10 @@ import { Component } from '@angular/core';
 })
 
 export class AppTreeComponent {
+  options = {
+    useVirtualScroll: true,
+    nodeHeight: 22
+  };
   nodes = [
     {
       name: 'Баксан строй (68)', children: [

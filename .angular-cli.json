@@ -21,7 +21,8 @@
       "styles": [
         "sass/styles.scss"
       ],
-      "scripts": ["assets/js/map.js"],
+      "scripts": ["assets/js/map.js",
+      "assets/js/svg4everybody.js"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

@@ -27,3 +27,26 @@
     background-image: url("/assets/img/trailer.svg");
   }
 }
+
+//.wrapper__tree {
+//  display: flex;
+//  flex-direction: column;
+//  min-height: 400px;
+//}
+
+tree-viewport {
+  min-width: 440px;
+}
+
+tree-viewport::-webkit-scrollbar {
+    width: 12px;
+  }
+
+tree-viewport::-webkit-scrollbar-track {
+  background-color: rgba(223, 221, 203, 0.51);
+}
+
+tree-viewport::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
