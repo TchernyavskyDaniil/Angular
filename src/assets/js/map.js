@@ -8,11 +8,11 @@ function init() {
     ),
       myPlacemark=new ymaps.Placemark([45.043124, 39.0056951],
         {
-          balloonContent: "Это наш офис"
+          balloonContent: "Ваша машина тут"
         },
         {
           iconLayout: "default#image",
-          // iconImageHref: "../img/placeholder.",
+          iconImageHref: "../assets/img/icon-transport.svg",
           iconImageSize: [36, 36],
           iconImageOffset: [0, 0]
         }
