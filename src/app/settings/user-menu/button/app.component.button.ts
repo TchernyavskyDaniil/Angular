@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {AppAlertMesComponent} from "./alert-mes/app.component.alert-mes";
 
 @Component({
   selector: 'app-button',

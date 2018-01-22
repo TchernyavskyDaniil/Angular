@@ -10,7 +10,7 @@ export class AppSubHeaderComponent {
   public subHeader = SUB;
 }
 
-//Не использовал
+// Не использовал
 
 const SUB = [
   { 'id': 1, 'name': 'менеджер' },

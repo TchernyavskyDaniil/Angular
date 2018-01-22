@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {AppContainerComponent} from '../settings/container/app.component.container';
 
 @Component({
   selector: 'app-pop-up',
