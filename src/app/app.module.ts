@@ -17,6 +17,8 @@ import {AppAlertMesComponent} from './settings/user-menu/button/alert-mes/app.co
 import {AppTreeComponent} from './tree/app.component.tree';
 import {TreeModule} from 'angular-tree-component';
 import {AppPopUpComponent} from './pop-up/app.component.pop-up';
+import {AppContainerComponent} from './settings/container/app.component.container';
+import {AppContainerFormComponent} from './settings/container-form/app.component.container-form';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import {AppPopUpComponent} from './pop-up/app.component.pop-up';
     AppSetButtonComponent,
     AppAlertMesComponent,
     AppTreeComponent,
-    AppPopUpComponent
+    AppPopUpComponent,
+    AppContainerComponent,
+    AppContainerFormComponent
   ],
   imports: [
     BrowserModule,

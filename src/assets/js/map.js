@@ -8,7 +8,7 @@ function init() {
     ),
       myPlacemark=new ymaps.Placemark([45.043124, 39.0056951],
         {
-          balloonContent: "Ваша машина тут"
+          // balloonContent: "Ваша машина тут"
         },
         {
           iconLayout: "default#image",

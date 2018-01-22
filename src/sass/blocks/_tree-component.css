@@ -2,7 +2,7 @@
 .tree-children { padding-left: 20px; overflow: hidden }
 .node-drop-slot { display: block; }
 .node-drop-slot.is-dragging-over { background: #ddffee; height: 20px; border: 2px dotted #888; }
-.toggle-children-wrapper-expanded .toggle-children {   background-image: url('/assets/img/folder-active.svg') }
+.toggle-children-wrapper-expanded .toggle-children {   background-image: url('/assets/img/folder-active.svg'); opacity: 1 }
 .toggle-children-wrapper-collapsed .toggle-children { transform: rotate(0); }
 .toggle-children-wrapper {
   padding: 2px 3px 5px 1px;
@@ -12,6 +12,7 @@
   width: 20px;
   height: 20px;
   background-image: url('/assets/img/folder-close.svg');
+  opacity: 0.7;
   background-size: contain;
   display: inline-block;
   position: relative;
@@ -69,7 +70,7 @@ tree-viewport {
 .tree-children { padding-left: 20px }
 .empty-tree-drop-slot .node-drop-slot { height: 20px; min-width: 100px }
 .angular-tree-component {
-  width: 100%;
+  width: 87%;
   position:relative;
   display: flex;
   flex-direction: column;

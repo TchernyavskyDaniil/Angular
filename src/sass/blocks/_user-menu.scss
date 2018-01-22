@@ -22,7 +22,7 @@
 }
 
 .menu__sub {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 16px;
   color: #607d8b;
 }
@@ -41,15 +41,19 @@
   text-align: left;
 }
 
+.menu__settings {
+  min-width: 365px;
+}
+
 .menu__sub-settings {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 60px;
+  margin-left: 45px;
   min-height: 380px;
 }
 
 .sub-set {
-  min-width: 380px;
+  min-width: 310px;
   border-right: 1px solid #eceff1;
   min-height: 300px;
 }
@@ -57,7 +61,7 @@
 .menu__item {
   display: flex;
   justify-content: space-between;
-  min-width: 300px;
+  min-width: 200px;
   padding-left: 40px;
   padding-right: 40px;
   border-bottom: 1px solid #eceff1;

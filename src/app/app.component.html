@@ -1,26 +1,9 @@
 <app-map></app-map>
 <app-burger></app-burger>
 <app-pop-up></app-pop-up>
-<div class="main__container container">
+<app-container ngClass="container">
   <form class="container__form" action="/echo" method="post">
-    <div class="container__head">
-      <div class="container__text">
-        <span class="container__title">
-          Объекты
-        </span>
-        <a class="container__link" href="#" alt="">
-          выбрать список
-        </a>
-      </div>
-      <button class="container__option btn">
-        <span class="container__elips"></span>
-        <span class="container__elips"></span>
-        <span class="container__elips"></span>
-      </button>
-    </div>
-    <div class="container__search search">
-      <input class="search__input" type="text" name="search" id="m-search" placeholder="Поиск">
-    </div>
+    <app-container-form></app-container-form>
     <app-tree></app-tree>
   </form>
-</div>
+</app-container>

@@ -1,21 +1,23 @@
-<div class="burger__menu main__container menu burger__menu--close">
-    <form class="menu__form" action="/echo" method="post">
-      <div class="menu__settings">
-        <div class="menu__name">
-          <app-header>
-            Газов Рустам
-          </app-header>
-          <app-sub-header>
-            менеджер
-          </app-sub-header>
+<app-container>
+  <div class="burger__menu menu burger__menu--close">
+      <form class="menu__form" action="/echo" method="post">
+        <div class="menu__settings">
+          <div class="menu__name">
+            <app-header>
+              Газов Рустам
+            </app-header>
+            <app-sub-header>
+              менеджер
+            </app-sub-header>
+          </div>
+          <app-button></app-button>
+          <app-btn-exit>
+            Выйти из системы
+          </app-btn-exit>
         </div>
-        <app-button></app-button>
-        <app-btn-exit>
-          Выйти из системы
-        </app-btn-exit>
-      </div>
-      <div class="menu__sub-settings">
-        <app-item></app-item>
-      </div>
-    </form>
-</div>
+        <div class="menu__sub-settings">
+          <app-item></app-item>
+        </div>
+      </form>
+  </div>
+</app-container>

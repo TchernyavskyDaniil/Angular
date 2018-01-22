@@ -4,29 +4,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-tree',
   templateUrl: 'app.component.tree.html',
-  styles: [`    
-    :host /deep/ .tree-node-level-2 .node-wrapper .toggle-children-placeholder {
-      display: block;
-      width: 17px;
-      height: 20px;
-      background-image: url('/assets/img/folder-close.svg');
-    }
-    :host /deep/ .tree-node-level-3 .node-wrapper .toggle-children-placeholder,
-    :host /deep/ tree-node:last-child .tree-node-level-1 .tree-node-level-2 .toggle-children-placeholder {
-      display: block;
-      width: 20px;
-      height: 18px;
-      background-image: url('/assets/img/arrow.svg');
-      -webkit-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-    }
-  `]
+  styleUrls: ['app.component.tree.css']
 })
 
 export class AppTreeComponent {
   options = {
     useVirtualScroll: true,
-    nodeHeight: 22
+    nodeHeight: 20,
+    dropSlotHeight: 20
   };
   nodes = [
     {
@@ -78,14 +63,14 @@ export class AppTreeComponent {
       ]
     },
     {
-      name: 'Горпромышленность (760)', children: [
+      name: 'Горпромышленность (760)', people: true, children: [
         {
           name: 'Some text'
         }
       ]
     },
     {
-      name: 'Черный кв (115)', children: [
+      name: 'Черный кв (115)', people: true, children: [
         {
           name: 'Some text'
         }

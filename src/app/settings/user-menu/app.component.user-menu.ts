@@ -5,6 +5,7 @@ import { AppButtonComponent } from './button/app.component.button';
 import { AppCurrentUserComponent } from '../current-user/app.component.current-user';
 import { AppButtonExitComponent } from './buttonExit/app.component.buttonExit';
 import {AppSubHeaderComponent} from '../current-user/sub-header/app.component.sub-header';
+import {AppContainerComponent} from '../container/app.component.container';
 
 @Component({
     selector: 'app-user-menu',
