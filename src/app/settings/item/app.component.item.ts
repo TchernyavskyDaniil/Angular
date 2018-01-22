@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 export class AppItemComponent {
   // Усечение строки использовать ?
-  str = '34875253-4200-FDE4-EC9A-0111';
+  str = '34875253-4200-FDE4-EC9A-0...';
   toggleBtn(event: any) {
     event.preventDefault();
     const closeBurger = document.querySelector('.menu__option');
